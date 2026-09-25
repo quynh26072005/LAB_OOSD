@@ -45,7 +45,7 @@ Lỗi: Xung đột khi cập nhật dữ liệu tiện nghi/dịch vụ hoặc l
 
 Cách khắc phục: Cập nhật lại logic trong tầng Service, sử dụng BindingSource để đồng bộ dữ liệu giao diện và bắt Exception để tránh văng app. 7. Hướng dẫn kiểm tra & chạy chương trình
 
-Mở file DbContext.cs Sửa lại ConnectionString sao cho khớp với tên Server Name trên máy của thầy
+Mở file App.config Sửa lại ConnectionString sao cho khớp với tên Server Name trên máy của thầy
 
 Clean và Rebuild lại Solution.
 
