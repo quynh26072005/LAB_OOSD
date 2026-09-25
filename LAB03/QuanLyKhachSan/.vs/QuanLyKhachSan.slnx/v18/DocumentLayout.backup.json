@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|d:\\lab_oosd\\lab03\\quanlykhachsan\\ui\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|solutionrelative:ui\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|d:\\lab_oosd\\lab03\\quanlykhachsan\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|d:\\lab_oosd\\lab03\\quanlykhachsan\\ui\\frmdanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|solutionrelative:ui\\frmdanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|d:\\lab_oosd\\lab03\\quanlykhachsan\\ui\\frmphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|solutionrelative:ui\\frmphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|d:\\lab_oosd\\lab03\\quanlykhachsan\\ui\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|solutionrelative:ui\\frmdanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|d:\\lab_oosd\\lab03\\quanlykhachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C796A68-E734-49D8-B7E7-CDE30584F392}|QuanLyKhachSan.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmPhong.cs",
-              "DocumentMoniker": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\UI\\FrmPhong.cs",
-              "RelativeDocumentMoniker": "UI\\FrmPhong.cs",
-              "ToolTip": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\UI\\FrmPhong.cs",
-              "RelativeToolTip": "UI\\FrmPhong.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAYwNoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T10:40:35.216Z",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-25T14:46:55.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmDanhMuc.Designer.cs",
-              "DocumentMoniker": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\UI\\FrmDanhMuc.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\FrmDanhMuc.Designer.cs",
-              "ToolTip": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\UI\\FrmDanhMuc.Designer.cs",
-              "RelativeToolTip": "UI\\FrmDanhMuc.Designer.cs",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAAALgAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T10:20:30.139Z",
+              "WhenOpened": "2026-09-25T14:46:07.173Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmDanhMuc.cs",
-              "DocumentMoniker": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\UI\\FrmDanhMuc.cs",
-              "RelativeDocumentMoniker": "UI\\FrmDanhMuc.cs",
-              "ToolTip": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\UI\\FrmDanhMuc.cs",
-              "RelativeToolTip": "UI\\FrmDanhMuc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T10:11:44.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmDanhMuc.cs [Design]",
-              "DocumentMoniker": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\UI\\FrmDanhMuc.cs",
-              "RelativeDocumentMoniker": "UI\\FrmDanhMuc.cs",
-              "ToolTip": "D:\\LAB_OOSD\\LAB03\\QuanLyKhachSan\\UI\\FrmDanhMuc.cs [Design]",
-              "RelativeToolTip": "UI\\FrmDanhMuc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T10:11:44.158Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

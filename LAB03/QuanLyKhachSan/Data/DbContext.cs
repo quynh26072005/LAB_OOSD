@@ -1,12 +1,13 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
+using System.Configuration; // 1. Thêm namespace này để đọc App.config
 
 namespace QuanLyKhachSan.Data
 {
     public class DbContext
     {
-     
-        private string connectionString = @"Server=Quynh;Database=QuanLyKhachSan;User Id=sa;Password=123;TrustServerCertificate=True;";
+        // 2. Đọc chuỗi kết nối tên "HotelDB" từ file App.config
+        private string connectionString = ConfigurationManager.ConnectionStrings["HotelDB"].ConnectionString;
 
         public DataTable GetData(string query)
         {
