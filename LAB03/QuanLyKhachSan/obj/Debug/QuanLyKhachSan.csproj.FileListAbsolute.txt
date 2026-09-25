@@ -1,0 +1,10 @@
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.AssemblyReference.cache
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\LAB_OOSD\LAB03\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UI.FrmMain.resources
