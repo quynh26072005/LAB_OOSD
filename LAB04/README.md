@@ -15,19 +15,7 @@ Hệ thống mua sắm trực tuyến với các tính năng:
 **Công nghệ**: .NET Framework 4.7.2, Windows Forms, SQL Server  
 **Kiến trúc**: 3-layer (UI - Service/Adapter - Data)
 
-## Cấu trúc thư mục
 
-```
-LAB04/
-|-- eShoppingDB_Script.sql      # Script tạo database
-|-- Bai_9_GOC.docx              # Yêu cầu đề bài
-|-- MUC TIEU.docx               # Mục tiêu bài tập
-+-- eShoppingPrototype/         # Source code
-    |-- Models/                 # 8 classes
-    |-- Data/                   # 4 DAOs
-    |-- ServiceAdapter/         # 6 services
-    +-- UI/                     # 6 forms
-```
 
 ## Hướng dẫn chạy
 
