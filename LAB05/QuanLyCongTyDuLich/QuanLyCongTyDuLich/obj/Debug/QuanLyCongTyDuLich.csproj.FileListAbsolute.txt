@@ -1,0 +1,7 @@
+C:\Users\Quynh\Downloads\QuanLyCongTyDuLich (4)\QuanLyCongTyDuLich\QuanLyCongTyDuLich\bin\Debug\QuanLyCongTyDuLich.exe.config
+C:\Users\Quynh\Downloads\QuanLyCongTyDuLich (4)\QuanLyCongTyDuLich\QuanLyCongTyDuLich\bin\Debug\QuanLyCongTyDuLich.exe
+C:\Users\Quynh\Downloads\QuanLyCongTyDuLich (4)\QuanLyCongTyDuLich\QuanLyCongTyDuLich\bin\Debug\QuanLyCongTyDuLich.pdb
+C:\Users\Quynh\Downloads\QuanLyCongTyDuLich (4)\QuanLyCongTyDuLich\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.csproj.AssemblyReference.cache
+C:\Users\Quynh\Downloads\QuanLyCongTyDuLich (4)\QuanLyCongTyDuLich\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.csproj.CoreCompileInputs.cache
+C:\Users\Quynh\Downloads\QuanLyCongTyDuLich (4)\QuanLyCongTyDuLich\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.exe
+C:\Users\Quynh\Downloads\QuanLyCongTyDuLich (4)\QuanLyCongTyDuLich\QuanLyCongTyDuLich\obj\Debug\QuanLyCongTyDuLich.pdb

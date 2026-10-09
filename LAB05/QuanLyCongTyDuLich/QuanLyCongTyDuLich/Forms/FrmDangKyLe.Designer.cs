@@ -1,0 +1,200 @@
+﻿namespace QuanLyCongTyDuLich.Forms
+{
+    partial class FrmDangKyLe
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null)) components.Dispose();
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.btnDong = new System.Windows.Forms.Button();
+            this.pnlCard1 = new System.Windows.Forms.Panel();
+            this.lblCap_txtSo = new System.Windows.Forms.Label();
+            this.txtSo = new System.Windows.Forms.TextBox();
+            this.lblCap_cboChuyen = new System.Windows.Forms.Label();
+            this.cboChuyen = new System.Windows.Forms.ComboBox();
+            this.lblCap_cboDiemBan = new System.Windows.Forms.Label();
+            this.cboDiemBan = new System.Windows.Forms.ComboBox();
+            this.lblCap_txtTen = new System.Windows.Forms.Label();
+            this.txtTen = new System.Windows.Forms.TextBox();
+            this.lblCap_txtDT = new System.Windows.Forms.Label();
+            this.txtDT = new System.Windows.Forms.TextBox();
+            this.lblCap_numNguoi = new System.Windows.Forms.Label();
+            this.numNguoi = new System.Windows.Forms.NumericUpDown();
+            this.lblCap_lblThanhTien = new System.Windows.Forms.Label();
+            this.lblThanhTien = new System.Windows.Forms.Label();
+            this.btnDangKy = new System.Windows.Forms.Button();
+            this.dgv = new System.Windows.Forms.DataGridView();
+            this.pnlHeader.SuspendLayout();
+            this.pnlCard1.SuspendLayout();
+            this.SuspendLayout();
+            this.pnlHeader.BackColor = System.Drawing.SystemColors.Window;
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Size = new System.Drawing.Size(900, 56);
+            this.pnlHeader.TabIndex = 0;
+            this.pnlHeader.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            this.lblTitle.Text = "ĐĂNG KÝ KHÁCH LẺ";
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular);
+            this.lblTitle.Location = new System.Drawing.Point(16, 13);
+            this.lblTitle.TabIndex = 1;
+            this.btnDong.Text = "Đóng";
+            this.btnDong.UseVisualStyleBackColor = true;
+            this.btnDong.Location = new System.Drawing.Point(784, 12);
+            this.btnDong.Size = new System.Drawing.Size(100, 32);
+            this.btnDong.TabIndex = 2;
+            this.btnDong.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            this.lblCap_txtSo.Text = "Số đăng ký:";
+            this.lblCap_txtSo.AutoSize = true;
+            this.lblCap_txtSo.Location = new System.Drawing.Point(14, 17);
+            this.lblCap_txtSo.TabIndex = 3;
+            this.txtSo.Location = new System.Drawing.Point(164, 12);
+            this.txtSo.Size = new System.Drawing.Size(246, 23);
+            this.txtSo.TabIndex = 4;
+            this.lblCap_cboChuyen.Text = "Chuyến:";
+            this.lblCap_cboChuyen.AutoSize = true;
+            this.lblCap_cboChuyen.Location = new System.Drawing.Point(434, 17);
+            this.lblCap_cboChuyen.TabIndex = 5;
+            this.cboChuyen.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboChuyen.FormattingEnabled = true;
+            this.cboChuyen.Location = new System.Drawing.Point(584, 12);
+            this.cboChuyen.Size = new System.Drawing.Size(246, 23);
+            this.cboChuyen.TabIndex = 6;
+            this.lblCap_cboDiemBan.Text = "Điểm bán vé:";
+            this.lblCap_cboDiemBan.AutoSize = true;
+            this.lblCap_cboDiemBan.Location = new System.Drawing.Point(14, 51);
+            this.lblCap_cboDiemBan.TabIndex = 7;
+            this.cboDiemBan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboDiemBan.FormattingEnabled = true;
+            this.cboDiemBan.Location = new System.Drawing.Point(164, 46);
+            this.cboDiemBan.Size = new System.Drawing.Size(246, 23);
+            this.cboDiemBan.TabIndex = 8;
+            this.lblCap_txtTen.Text = "Người đăng ký:";
+            this.lblCap_txtTen.AutoSize = true;
+            this.lblCap_txtTen.Location = new System.Drawing.Point(434, 51);
+            this.lblCap_txtTen.TabIndex = 9;
+            this.txtTen.Location = new System.Drawing.Point(584, 46);
+            this.txtTen.Size = new System.Drawing.Size(246, 23);
+            this.txtTen.TabIndex = 10;
+            this.lblCap_txtDT.Text = "Điện thoại:";
+            this.lblCap_txtDT.AutoSize = true;
+            this.lblCap_txtDT.Location = new System.Drawing.Point(14, 85);
+            this.lblCap_txtDT.TabIndex = 11;
+            this.txtDT.Location = new System.Drawing.Point(164, 80);
+            this.txtDT.Size = new System.Drawing.Size(246, 23);
+            this.txtDT.TabIndex = 12;
+            this.lblCap_numNguoi.Text = "Số người:";
+            this.lblCap_numNguoi.AutoSize = true;
+            this.lblCap_numNguoi.Location = new System.Drawing.Point(434, 85);
+            this.lblCap_numNguoi.TabIndex = 13;
+            this.numNguoi.Minimum = new decimal(new int[] {1, 0, 0, 0});
+            this.numNguoi.Maximum = new decimal(new int[] {11, 0, 0, 0});
+            this.numNguoi.Value = new decimal(new int[] {1, 0, 0, 0});
+            this.numNguoi.Location = new System.Drawing.Point(584, 80);
+            this.numNguoi.Size = new System.Drawing.Size(180, 23);
+            this.numNguoi.TabIndex = 14;
+            this.lblCap_lblThanhTien.Text = "Thành tiền:";
+            this.lblCap_lblThanhTien.AutoSize = true;
+            this.lblCap_lblThanhTien.Location = new System.Drawing.Point(14, 119);
+            this.lblCap_lblThanhTien.TabIndex = 15;
+            this.lblThanhTien.Text = "-";
+            this.lblThanhTien.AutoSize = true;
+            this.lblThanhTien.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular);
+            this.lblThanhTien.Location = new System.Drawing.Point(164, 118);
+            this.lblThanhTien.TabIndex = 16;
+            this.pnlCard1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlCard1.Location = new System.Drawing.Point(16, 70);
+            this.pnlCard1.Size = new System.Drawing.Size(868, 156);
+            this.pnlCard1.TabIndex = 17;
+            this.pnlCard1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            this.btnDangKy.Text = "Đăng ký và thanh toán vé";
+            this.btnDangKy.UseVisualStyleBackColor = true;
+            this.btnDangKy.Location = new System.Drawing.Point(16, 238);
+            this.btnDangKy.Size = new System.Drawing.Size(248, 36);
+            this.btnDangKy.TabIndex = 18;
+            this.dgv.AllowUserToAddRows = false;
+            this.dgv.AllowUserToDeleteRows = false;
+            this.dgv.ReadOnly = true;
+            this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgv.MultiSelect = false;
+            this.dgv.RowHeadersVisible = false;
+            this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv.BackgroundColor = System.Drawing.Color.White;
+            this.dgv.Location = new System.Drawing.Point(16, 286);
+            this.dgv.Size = new System.Drawing.Size(868, 170);
+            this.dgv.TabIndex = 19;
+            this.dgv.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            this.pnlHeader.Controls.Add(this.lblTitle);
+            this.pnlHeader.Controls.Add(this.btnDong);
+            this.Controls.Add(this.pnlHeader);
+            this.pnlCard1.Controls.Add(this.lblCap_txtSo);
+            this.pnlCard1.Controls.Add(this.txtSo);
+            this.pnlCard1.Controls.Add(this.lblCap_cboChuyen);
+            this.pnlCard1.Controls.Add(this.cboChuyen);
+            this.pnlCard1.Controls.Add(this.lblCap_cboDiemBan);
+            this.pnlCard1.Controls.Add(this.cboDiemBan);
+            this.pnlCard1.Controls.Add(this.lblCap_txtTen);
+            this.pnlCard1.Controls.Add(this.txtTen);
+            this.pnlCard1.Controls.Add(this.lblCap_txtDT);
+            this.pnlCard1.Controls.Add(this.txtDT);
+            this.pnlCard1.Controls.Add(this.lblCap_numNguoi);
+            this.pnlCard1.Controls.Add(this.numNguoi);
+            this.pnlCard1.Controls.Add(this.lblCap_lblThanhTien);
+            this.pnlCard1.Controls.Add(this.lblThanhTien);
+            this.Controls.Add(this.pnlCard1);
+            this.Controls.Add(this.btnDangKy);
+            this.Controls.Add(this.dgv);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ClientSize = new System.Drawing.Size(900, 472);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "FrmDangKyLe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Đăng ký khách lẻ";
+            this.AutoScroll = true;
+            this.cboChuyen.SelectedIndexChanged += new System.EventHandler(this.TinhTien);
+            this.numNguoi.ValueChanged += new System.EventHandler(this.TinhTien);
+            this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
+            this.Load += new System.EventHandler(this.FrmDangKyLe_Load);
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlCard1.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel pnlHeader;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Button btnDong;
+        private System.Windows.Forms.Panel pnlCard1;
+        private System.Windows.Forms.Label lblCap_txtSo;
+        private System.Windows.Forms.TextBox txtSo;
+        private System.Windows.Forms.Label lblCap_cboChuyen;
+        private System.Windows.Forms.ComboBox cboChuyen;
+        private System.Windows.Forms.Label lblCap_cboDiemBan;
+        private System.Windows.Forms.ComboBox cboDiemBan;
+        private System.Windows.Forms.Label lblCap_txtTen;
+        private System.Windows.Forms.TextBox txtTen;
+        private System.Windows.Forms.Label lblCap_txtDT;
+        private System.Windows.Forms.TextBox txtDT;
+        private System.Windows.Forms.Label lblCap_numNguoi;
+        private System.Windows.Forms.NumericUpDown numNguoi;
+        private System.Windows.Forms.Label lblCap_lblThanhTien;
+        private System.Windows.Forms.Label lblThanhTien;
+        private System.Windows.Forms.Button btnDangKy;
+        private System.Windows.Forms.DataGridView dgv;
+    }
+}

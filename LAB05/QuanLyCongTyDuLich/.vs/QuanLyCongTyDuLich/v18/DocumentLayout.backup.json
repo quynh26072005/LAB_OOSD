@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Quynh\\Downloads\\QuanLyCongTyDuLich (4)\\QuanLyCongTyDuLich\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E7D599D-60B9-477C-98F6-1E965CB2C640}|QuanLyCongTyDuLich\\QuanLyCongTyDuLich.csproj|c:\\users\\quynh\\downloads\\quanlycongtydulich (4)\\quanlycongtydulich\\quanlycongtydulich\\data\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E7D599D-60B9-477C-98F6-1E965CB2C640}|QuanLyCongTyDuLich\\QuanLyCongTyDuLich.csproj|solutionrelative:quanlycongtydulich\\data\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E7D599D-60B9-477C-98F6-1E965CB2C640}|QuanLyCongTyDuLich\\QuanLyCongTyDuLich.csproj|C:\\Users\\Quynh\\Downloads\\QuanLyCongTyDuLich (4)\\QuanLyCongTyDuLich\\quanlycongtydulich\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7E7D599D-60B9-477C-98F6-1E965CB2C640}|QuanLyCongTyDuLich\\QuanLyCongTyDuLich.csproj|solutionrelative:quanlycongtydulich\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Db.cs",
+              "DocumentMoniker": "C:\\Users\\Quynh\\Downloads\\QuanLyCongTyDuLich (4)\\QuanLyCongTyDuLich\\QuanLyCongTyDuLich\\Data\\Db.cs",
+              "RelativeDocumentMoniker": "QuanLyCongTyDuLich\\Data\\Db.cs",
+              "ToolTip": "C:\\Users\\Quynh\\Downloads\\QuanLyCongTyDuLich (4)\\QuanLyCongTyDuLich\\QuanLyCongTyDuLich\\Data\\Db.cs",
+              "RelativeToolTip": "QuanLyCongTyDuLich\\Data\\Db.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T03:10:08.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Quynh\\Downloads\\QuanLyCongTyDuLich (4)\\QuanLyCongTyDuLich\\QuanLyCongTyDuLich\\App.config",
+              "RelativeDocumentMoniker": "QuanLyCongTyDuLich\\App.config",
+              "ToolTip": "C:\\Users\\Quynh\\Downloads\\QuanLyCongTyDuLich (4)\\QuanLyCongTyDuLich\\QuanLyCongTyDuLich\\App.config",
+              "RelativeToolTip": "QuanLyCongTyDuLich\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-10-09T03:01:40.591Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

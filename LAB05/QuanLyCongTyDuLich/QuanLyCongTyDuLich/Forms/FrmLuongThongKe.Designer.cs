@@ -1,0 +1,203 @@
+﻿namespace QuanLyCongTyDuLich.Forms
+{
+    partial class FrmLuongThongKe
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null)) components.Dispose();
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.btnDong = new System.Windows.Forms.Button();
+            this.tabTK = new System.Windows.Forms.TabControl();
+            this.tp1 = new System.Windows.Forms.TabPage();
+            this.tp2 = new System.Windows.Forms.TabPage();
+            this.lblCap_numThang = new System.Windows.Forms.Label();
+            this.numThang = new System.Windows.Forms.NumericUpDown();
+            this.lblCap_numNam = new System.Windows.Forms.Label();
+            this.numNam = new System.Windows.Forms.NumericUpDown();
+            this.btnLuong = new System.Windows.Forms.Button();
+            this.dgvLuong = new System.Windows.Forms.DataGridView();
+            this.lblCap_dtTu = new System.Windows.Forms.Label();
+            this.dtTu = new System.Windows.Forms.DateTimePicker();
+            this.lblCap_dtDen = new System.Windows.Forms.Label();
+            this.dtDen = new System.Windows.Forms.DateTimePicker();
+            this.btnTongHop = new System.Windows.Forms.Button();
+            this.dgvTongHop = new System.Windows.Forms.DataGridView();
+            this.pnlHeader.SuspendLayout();
+            this.tabTK.SuspendLayout();
+            this.tp1.SuspendLayout();
+            this.tp2.SuspendLayout();
+            this.SuspendLayout();
+            this.pnlHeader.BackColor = System.Drawing.SystemColors.Window;
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Size = new System.Drawing.Size(900, 56);
+            this.pnlHeader.TabIndex = 0;
+            this.pnlHeader.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            this.lblTitle.Text = "LƯƠNG - THỐNG KÊ";
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular);
+            this.lblTitle.Location = new System.Drawing.Point(16, 13);
+            this.lblTitle.TabIndex = 1;
+            this.btnDong.Text = "Đóng";
+            this.btnDong.UseVisualStyleBackColor = true;
+            this.btnDong.Location = new System.Drawing.Point(784, 12);
+            this.btnDong.Size = new System.Drawing.Size(100, 32);
+            this.btnDong.TabIndex = 2;
+            this.btnDong.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            this.lblCap_numThang.Text = "Tháng:";
+            this.lblCap_numThang.AutoSize = true;
+            this.lblCap_numThang.Location = new System.Drawing.Point(14, 13);
+            this.lblCap_numThang.TabIndex = 3;
+            this.numThang.Minimum = new decimal(new int[] {1, 0, 0, 0});
+            this.numThang.Maximum = new decimal(new int[] {12, 0, 0, 0});
+            this.numThang.Value = new decimal(new int[] {1, 0, 0, 0});
+            this.numThang.Location = new System.Drawing.Point(164, 8);
+            this.numThang.Size = new System.Drawing.Size(180, 23);
+            this.numThang.TabIndex = 4;
+            this.lblCap_numNam.Text = "Năm:";
+            this.lblCap_numNam.AutoSize = true;
+            this.lblCap_numNam.Location = new System.Drawing.Point(430, 13);
+            this.lblCap_numNam.TabIndex = 5;
+            this.numNam.Minimum = new decimal(new int[] {2000, 0, 0, 0});
+            this.numNam.Maximum = new decimal(new int[] {2100, 0, 0, 0});
+            this.numNam.Value = new decimal(new int[] {2026, 0, 0, 0});
+            this.numNam.Location = new System.Drawing.Point(580, 8);
+            this.numNam.Size = new System.Drawing.Size(180, 23);
+            this.numNam.TabIndex = 6;
+            this.btnLuong.Text = "Tính lương";
+            this.btnLuong.UseVisualStyleBackColor = true;
+            this.btnLuong.Location = new System.Drawing.Point(10, 48);
+            this.btnLuong.Size = new System.Drawing.Size(122, 36);
+            this.btnLuong.TabIndex = 7;
+            this.dgvLuong.AllowUserToAddRows = false;
+            this.dgvLuong.AllowUserToDeleteRows = false;
+            this.dgvLuong.ReadOnly = true;
+            this.dgvLuong.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvLuong.MultiSelect = false;
+            this.dgvLuong.RowHeadersVisible = false;
+            this.dgvLuong.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvLuong.BackgroundColor = System.Drawing.Color.White;
+            this.dgvLuong.Location = new System.Drawing.Point(10, 96);
+            this.dgvLuong.Size = new System.Drawing.Size(840, 170);
+            this.dgvLuong.TabIndex = 8;
+            this.dgvLuong.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            this.lblCap_dtTu.Text = "Từ ngày:";
+            this.lblCap_dtTu.AutoSize = true;
+            this.lblCap_dtTu.Location = new System.Drawing.Point(14, 13);
+            this.lblCap_dtTu.TabIndex = 9;
+            this.dtTu.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtTu.Location = new System.Drawing.Point(164, 8);
+            this.dtTu.Size = new System.Drawing.Size(180, 23);
+            this.dtTu.TabIndex = 10;
+            this.lblCap_dtDen.Text = "Đến ngày:";
+            this.lblCap_dtDen.AutoSize = true;
+            this.lblCap_dtDen.Location = new System.Drawing.Point(430, 13);
+            this.lblCap_dtDen.TabIndex = 11;
+            this.dtDen.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtDen.Location = new System.Drawing.Point(580, 8);
+            this.dtDen.Size = new System.Drawing.Size(180, 23);
+            this.dtDen.TabIndex = 12;
+            this.btnTongHop.Text = "Thống kê";
+            this.btnTongHop.UseVisualStyleBackColor = true;
+            this.btnTongHop.Location = new System.Drawing.Point(10, 48);
+            this.btnTongHop.Size = new System.Drawing.Size(120, 36);
+            this.btnTongHop.TabIndex = 13;
+            this.dgvTongHop.AllowUserToAddRows = false;
+            this.dgvTongHop.AllowUserToDeleteRows = false;
+            this.dgvTongHop.ReadOnly = true;
+            this.dgvTongHop.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvTongHop.MultiSelect = false;
+            this.dgvTongHop.RowHeadersVisible = false;
+            this.dgvTongHop.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvTongHop.BackgroundColor = System.Drawing.Color.White;
+            this.dgvTongHop.Location = new System.Drawing.Point(10, 96);
+            this.dgvTongHop.Size = new System.Drawing.Size(840, 170);
+            this.dgvTongHop.TabIndex = 14;
+            this.dgvTongHop.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            this.tp1.Text = "Lương hướng dẫn viên";
+            this.tp1.UseVisualStyleBackColor = true;
+            this.tp1.Location = new System.Drawing.Point(4, 26);
+            this.tp1.Size = new System.Drawing.Size(860, 284);
+            this.tp1.TabIndex = 15;
+            this.tp2.Text = "Thống kê tổng hợp";
+            this.tp2.UseVisualStyleBackColor = true;
+            this.tp2.Location = new System.Drawing.Point(4, 26);
+            this.tp2.Size = new System.Drawing.Size(860, 284);
+            this.tp2.TabIndex = 16;
+            this.tabTK.Location = new System.Drawing.Point(16, 70);
+            this.tabTK.Size = new System.Drawing.Size(868, 316);
+            this.tabTK.TabIndex = 17;
+            this.tabTK.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            this.pnlHeader.Controls.Add(this.lblTitle);
+            this.pnlHeader.Controls.Add(this.btnDong);
+            this.Controls.Add(this.pnlHeader);
+            this.tp1.Controls.Add(this.lblCap_numThang);
+            this.tp1.Controls.Add(this.numThang);
+            this.tp1.Controls.Add(this.lblCap_numNam);
+            this.tp1.Controls.Add(this.numNam);
+            this.tp1.Controls.Add(this.btnLuong);
+            this.tp1.Controls.Add(this.dgvLuong);
+            this.tp2.Controls.Add(this.lblCap_dtTu);
+            this.tp2.Controls.Add(this.dtTu);
+            this.tp2.Controls.Add(this.lblCap_dtDen);
+            this.tp2.Controls.Add(this.dtDen);
+            this.tp2.Controls.Add(this.btnTongHop);
+            this.tp2.Controls.Add(this.dgvTongHop);
+            this.tabTK.Controls.Add(this.tp1);
+            this.tabTK.Controls.Add(this.tp2);
+            this.Controls.Add(this.tabTK);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ClientSize = new System.Drawing.Size(900, 402);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "FrmLuongThongKe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lương - thống kê";
+            this.AutoScroll = true;
+            this.btnLuong.Click += new System.EventHandler(this.btnLuong_Click);
+            this.btnTongHop.Click += new System.EventHandler(this.btnTongHop_Click);
+            this.btnLuong.Click += new System.EventHandler(this.btnLuong_Click);
+            this.btnTongHop.Click += new System.EventHandler(this.btnTongHop_Click);
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
+            this.Load += new System.EventHandler(this.FrmLuongThongKe_Load);
+            this.pnlHeader.ResumeLayout(false);
+            this.tabTK.ResumeLayout(false);
+            this.tp1.ResumeLayout(false);
+            this.tp2.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel pnlHeader;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Button btnDong;
+        private System.Windows.Forms.TabControl tabTK;
+        private System.Windows.Forms.TabPage tp1;
+        private System.Windows.Forms.TabPage tp2;
+        private System.Windows.Forms.Label lblCap_numThang;
+        private System.Windows.Forms.NumericUpDown numThang;
+        private System.Windows.Forms.Label lblCap_numNam;
+        private System.Windows.Forms.NumericUpDown numNam;
+        private System.Windows.Forms.Button btnLuong;
+        private System.Windows.Forms.DataGridView dgvLuong;
+        private System.Windows.Forms.Label lblCap_dtTu;
+        private System.Windows.Forms.DateTimePicker dtTu;
+        private System.Windows.Forms.Label lblCap_dtDen;
+        private System.Windows.Forms.DateTimePicker dtDen;
+        private System.Windows.Forms.Button btnTongHop;
+        private System.Windows.Forms.DataGridView dgvTongHop;
+    }
+}
