@@ -1,0 +1,7 @@
+C:\Users\Quynh\Downloads\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.exe.config
+C:\Users\Quynh\Downloads\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.exe
+C:\Users\Quynh\Downloads\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\bin\Debug\QuanLyHoSoBenhAn.pdb
+C:\Users\Quynh\Downloads\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csproj.AssemblyReference.cache
+C:\Users\Quynh\Downloads\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.csproj.CoreCompileInputs.cache
+C:\Users\Quynh\Downloads\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.exe
+C:\Users\Quynh\Downloads\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\QuanLyHoSoBenhAn\obj\Debug\QuanLyHoSoBenhAn.pdb
