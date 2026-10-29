@@ -1,0 +1,12 @@
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\obj\Debug\QuanLyNhanSu.UI.csproj.AssemblyReference.cache
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\obj\Debug\QuanLyNhanSu.UI.csproj.CoreCompileInputs.cache
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\bin\Debug\QuanLyNhanSu.UI.exe.config
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\bin\Debug\QuanLyNhanSu.UI.exe
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\bin\Debug\QuanLyNhanSu.UI.pdb
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\bin\Debug\QuanLyNhanSu.Data.dll
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\bin\Debug\QuanLyNhanSu.Service.dll
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\bin\Debug\QuanLyNhanSu.Data.pdb
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\bin\Debug\QuanLyNhanSu.Service.pdb
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\obj\Debug\QuanLyNh.7CA3A139.Up2Date
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\obj\Debug\QuanLyNhanSu.UI.exe
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.UI\obj\Debug\QuanLyNhanSu.UI.pdb

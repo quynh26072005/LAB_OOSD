@@ -1,0 +1,9 @@
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Service\bin\Debug\QuanLyNhanSu.Service.dll
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Service\bin\Debug\QuanLyNhanSu.Service.pdb
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Service\bin\Debug\QuanLyNhanSu.Data.dll
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Service\bin\Debug\QuanLyNhanSu.Data.pdb
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Service\obj\Debug\QuanLyNhanSu.Service.csproj.AssemblyReference.cache
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Service\obj\Debug\QuanLyNhanSu.Service.csproj.CoreCompileInputs.cache
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Service\obj\Debug\QuanLyNh.2E815F3E.Up2Date
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Service\obj\Debug\QuanLyNhanSu.Service.dll
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Service\obj\Debug\QuanLyNhanSu.Service.pdb

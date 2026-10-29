@@ -1,0 +1,6 @@
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Data\bin\Debug\QuanLyNhanSu.Data.dll
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Data\bin\Debug\QuanLyNhanSu.Data.pdb
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Data\obj\Debug\QuanLyNhanSu.Data.csproj.AssemblyReference.cache
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Data\obj\Debug\QuanLyNhanSu.Data.csproj.CoreCompileInputs.cache
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Data\obj\Debug\QuanLyNhanSu.Data.dll
+D:\LAB_OOSD\LAB07\QuanLyNhanSu\QuanLyNhanSu.Data\obj\Debug\QuanLyNhanSu.Data.pdb
