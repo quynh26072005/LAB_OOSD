@@ -1,0 +1,14 @@
+D:\LAB_OOSD\LAB08\src\src\bin\Debug\QuanLyCaoOc.exe.config
+D:\LAB_OOSD\LAB08\src\src\bin\Debug\QuanLyCaoOc.exe
+D:\LAB_OOSD\LAB08\src\src\bin\Debug\QuanLyCaoOc.pdb
+D:\LAB_OOSD\LAB08\src\src\obj\Debug\QuanLyCaoOc.csproj.AssemblyReference.cache
+D:\LAB_OOSD\LAB08\src\src\obj\Debug\QuanLyCaoOc.csproj.CoreCompileInputs.cache
+D:\LAB_OOSD\LAB08\src\src\obj\Debug\QuanLyCaoOc.exe
+D:\LAB_OOSD\LAB08\src\src\obj\Debug\QuanLyCaoOc.pdb
+D:\LAB_OOSD\LAB08\src\bin\Debug\QuanLyCaoOc.exe.config
+D:\LAB_OOSD\LAB08\src\bin\Debug\QuanLyCaoOc.exe
+D:\LAB_OOSD\LAB08\src\bin\Debug\QuanLyCaoOc.pdb
+D:\LAB_OOSD\LAB08\src\obj\Debug\QuanLyCaoOc.csproj.AssemblyReference.cache
+D:\LAB_OOSD\LAB08\src\obj\Debug\QuanLyCaoOc.csproj.CoreCompileInputs.cache
+D:\LAB_OOSD\LAB08\src\obj\Debug\QuanLyCaoOc.exe
+D:\LAB_OOSD\LAB08\src\obj\Debug\QuanLyCaoOc.pdb

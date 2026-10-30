@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B1F6C2A-7D44-4E8B-9A51-2C6E5D0F1A77}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyCaoOc</RootNamespace>
+    <AssemblyName>QuanLyCaoOc</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Db.cs" />
+    <Compile Include="Data\KetQuaXuLy.cs" />
+    <Compile Include="Forms\FrmDanhMuc.Designer.cs">
+      <DependentUpon>Forms\FrmDanhMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmDanhMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmGiaHan.Designer.cs">
+      <DependentUpon>Forms\FrmGiaHan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmGiaHan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmHopDong.Designer.cs">
+      <DependentUpon>Forms\FrmHopDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmKiemTra.Designer.cs">
+      <DependentUpon>Forms\FrmKiemTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmKiemTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMain.Designer.cs">
+      <DependentUpon>Forms\FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmNhanVienCongTy.Designer.cs">
+      <DependentUpon>Forms\FrmNhanVienCongTy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmNhanVienCongTy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTangPhong.Designer.cs">
+      <DependentUpon>Forms\FrmTangPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmTangPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmThanhToan.Designer.cs">
+      <DependentUpon>Forms\FrmThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmThongKe.Designer.cs">
+      <DependentUpon>Forms\FrmThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UiHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Services\DanhMucService.cs" />
+    <Compile Include="Services\GiaHanService.cs" />
+    <Compile Include="Services\HopDongService.cs" />
+    <Compile Include="Services\KiemTraService.cs" />
+    <Compile Include="Services\NhanVienCongTyService.cs" />
+    <Compile Include="Services\TangPhongService.cs" />
+    <Compile Include="Services\ThanhToanService.cs" />
+    <Compile Include="Services\ThongKeService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
