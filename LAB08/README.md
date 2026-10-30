@@ -2,7 +2,7 @@
 
 - Họ tên: Nguyễn Sĩ Quỳnh
 - MSSV: 1250080157
-- Môn: Thực hành Phân tích thiết kế hướng đối tượng – HUTECH
+- Môn: Thực hành Phân tích thiết kế hướng đối tượng 
 
 ## Giới thiệu
 Ứng dụng WinForms quản lý việc cho thuê văn phòng trong cao ốc: tầng – phòng, hợp đồng thuê, thu tiền thuê, hóa đơn dịch vụ, gia hạn, nhân viên công ty và thẻ giữ xe, kiểm tra phòng và phạt, thống kê.
