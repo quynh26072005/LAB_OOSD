@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <mxfile host="app.diagrams.net" agent="Claude" version="24.7.0">
   <diagram name="Hình 21: ERD phần 2: kế hoạch tuần, chấm công, phụ trội" id="l7p21">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
@@ -550,82 +551,126 @@
         <mxCell id="l7p21_182" value="nvarchar(100)" style="text;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;spacingRight=4;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="l7p21_176">
           <mxGeometry x="154" y="42" width="86" height="18" as="geometry"/>
         </mxCell>
-        <mxCell id="l7p21_183" value="Lập" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_1" target="l7p21_8">
+        <mxCell id="l7p21_183" value="Lập" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=1.0000;exitY=0.2000;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.0800;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_1" target="l7p21_8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="64.21" as="sourcePoint"/>
-            <mxPoint x="400" y="80.79" as="targetPoint"/>
+            <mxPoint x="260" y="32" as="sourcePoint"/>
+            <mxPoint x="400" y="32" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="302" y="32"/>
+              <mxPoint x="302" y="32"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_184" value="Phân công" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_8" target="l7p21_30">
+        <mxCell id="l7p21_184" value="Phân công" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=1.0000;exitY=0.0800;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.1053;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_8" target="l7p21_30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="89.98" as="sourcePoint"/>
-            <mxPoint x="830" y="82.02" as="targetPoint"/>
+            <mxPoint x="640" y="32" as="sourcePoint"/>
+            <mxPoint x="830" y="32" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="707" y="32"/>
+              <mxPoint x="707" y="32"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_185" value="Theo ca" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_46" target="l7p21_30">
+        <mxCell id="l7p21_185" value="Theo ca" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=0.0000;exitY=0.1250;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.1053;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_46" target="l7p21_30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1240" y="70.63" as="sourcePoint"/>
-            <mxPoint x="1070" y="74.37" as="targetPoint"/>
+            <mxPoint x="1240" y="32" as="sourcePoint"/>
+            <mxPoint x="1070" y="32" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1127" y="32"/>
+              <mxPoint x="1127" y="32"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_186" value="Được phân" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_78" target="l7p21_30">
+        <mxCell id="l7p21_186" value="Được phân" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=0.1250;exitY=0.0000;exitDx=0;exitDy=0;entryX=0.1250;entryY=1.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_78" target="l7p21_30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="950" y="320" as="sourcePoint"/>
-            <mxPoint x="950" y="134" as="targetPoint"/>
+            <mxPoint x="860" y="320" as="sourcePoint"/>
+            <mxPoint x="860" y="134" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_187" value="Phụ trội" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_8" target="l7p21_59">
+        <mxCell id="l7p21_187" value="Phụ trội" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=0.1250;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.1235;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_8" target="l7p21_59">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520.39" y="170" as="sourcePoint"/>
-            <mxPoint x="521.16" y="320" as="targetPoint"/>
+            <mxPoint x="430" y="170" as="sourcePoint"/>
+            <mxPoint x="430" y="320" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_188" value="Làm phụ trội" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_78" target="l7p21_59">
+        <mxCell id="l7p21_188" value="Làm phụ trội" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=0.0000;exitY=0.2000;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.0909;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_78" target="l7p21_59">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="830" y="360.08" as="sourcePoint"/>
-            <mxPoint x="643" y="375.79" as="targetPoint"/>
+            <mxPoint x="830" y="332" as="sourcePoint"/>
+            <mxPoint x="643" y="332" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="708.5" y="332"/>
+              <mxPoint x="708.5" y="332"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_189" value="Chấm công" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_85" target="l7p21_92">
+        <mxCell id="l7p21_189" value="Chấm công" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=1.0000;exitY=0.2000;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.1053;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_85" target="l7p21_92">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="718.53" as="sourcePoint"/>
-            <mxPoint x="400" y="728.47" as="targetPoint"/>
+            <mxPoint x="260" y="692" as="sourcePoint"/>
+            <mxPoint x="400" y="692" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="316" y="692"/>
+              <mxPoint x="316" y="692"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_190" value="Chi tiết" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERoneToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_92" target="l7p21_108">
+        <mxCell id="l7p21_190" value="Chi tiết" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERoneToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=1.0000;exitY=0.1053;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.0909;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_92" target="l7p21_108">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="739.51" as="sourcePoint"/>
-            <mxPoint x="830" y="743.49" as="targetPoint"/>
+            <mxPoint x="640" y="692" as="sourcePoint"/>
+            <mxPoint x="830" y="692" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="721" y="692"/>
+              <mxPoint x="721" y="692"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_191" value="Được chấm" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_127" target="l7p21_108">
+        <mxCell id="l7p21_191" value="Được chấm" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=0.0000;exitY=0.2000;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.0909;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_127" target="l7p21_108">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1240" y="720.54" as="sourcePoint"/>
-            <mxPoint x="1070" y="735.46" as="targetPoint"/>
+            <mxPoint x="1240" y="692" as="sourcePoint"/>
+            <mxPoint x="1070" y="692" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1141" y="692"/>
+              <mxPoint x="1141" y="692"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_192" value="Ca làm" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERzeroToOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_46" target="l7p21_108">
+        <mxCell id="l7p21_192" value="Ca làm" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERzeroToOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=0.0000;exitY=0.3125;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.2273;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_46" target="l7p21_108">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1330.97" y="116" as="sourcePoint"/>
-            <mxPoint x="989.91" y="680" as="targetPoint"/>
+            <mxPoint x="1240" y="50" as="sourcePoint"/>
+            <mxPoint x="1070" y="710" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1155" y="50"/>
+              <mxPoint x="1155" y="710"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_193" value="Phụ trội" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_134" target="l7p21_141">
+        <mxCell id="l7p21_193" value="Phụ trội" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=1.0000;exitY=0.2000;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.0800;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_134" target="l7p21_141">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="1074.21" as="sourcePoint"/>
-            <mxPoint x="400" y="1090.79" as="targetPoint"/>
+            <mxPoint x="260" y="1042" as="sourcePoint"/>
+            <mxPoint x="400" y="1042" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="330" y="1042"/>
+              <mxPoint x="330" y="1042"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_194" value="Chi tiết" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERoneToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_141" target="l7p21_163">
+        <mxCell id="l7p21_194" value="Chi tiết" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERoneToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=1.0000;exitY=0.0800;exitDx=0;exitDy=0;entryX=0.0000;entryY=0.1250;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_141" target="l7p21_163">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="1097.47" as="sourcePoint"/>
-            <mxPoint x="830" y="1085.53" as="targetPoint"/>
+            <mxPoint x="640" y="1042" as="sourcePoint"/>
+            <mxPoint x="830" y="1042" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="735" y="1042"/>
+              <mxPoint x="735" y="1042"/>
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7p21_195" value="Được ghi" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l7p21_176" target="l7p21_163">
+        <mxCell id="l7p21_195" value="Được ghi" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=ERzeroToMany;endFill=0;endSize=14;startArrow=ERmandOne;startFill=0;startSize=14;labelBackgroundColor=#FFFFFF;exitX=0.0000;exitY=0.2000;exitDx=0;exitDy=0;entryX=1.0000;entryY=0.1250;entryDx=0;entryDy=0;" edge="1" parent="1" source="l7p21_176" target="l7p21_163">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1240" y="1065.27" as="sourcePoint"/>
-            <mxPoint x="1070" y="1072.73" as="targetPoint"/>
+            <mxPoint x="1240" y="1042" as="sourcePoint"/>
+            <mxPoint x="1070" y="1042" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1169" y="1042"/>
+              <mxPoint x="1169" y="1042"/>
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="l7p21_196" value="Ký hiệu: ‖ một và chỉ một;  ○| không hoặc một;  ○&amp;lt; không hoặc nhiều;  |&amp;lt; một hoặc nhiều.   PK: khóa chính (gạch chân);  FK: khóa ngoại." style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;align=left;verticalAlign=middle;fontSize=11;spacingLeft=4;" vertex="1" parent="1">
