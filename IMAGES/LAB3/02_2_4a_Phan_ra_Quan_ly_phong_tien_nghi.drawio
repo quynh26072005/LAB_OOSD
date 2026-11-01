@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" agent="Claude" version="24.7.0"><diagram name="2.4a Phân rã Quản lý phòng - tiện nghi" id="l3p02"><mxGraphModel dx="1200" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="l3p02_1" value="" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="200" y="8" width="520" height="480" as="geometry"/></mxCell><mxCell id="l3p02_2" value="&lt;b&gt;Phân rã - Quản lý phòng - tiện nghi&lt;/b&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1"><mxGeometry x="200" y="12" width="520" height="22" as="geometry"/></mxCell><mxCell id="l3p02_3" value="Nhân viên" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="135" y="8" width="30" height="56" as="geometry"/></mxCell><mxCell id="l3p02_4" value="NV Phục vụ&lt;br&gt;phòng" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="8" width="30" height="56" as="geometry"/></mxCell><mxCell id="l3p02_5" value="Quản lý khu vực" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="335" y="58" width="250" height="44" as="geometry"/></mxCell><mxCell id="l3p02_6" value="Quản lý phòng" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="335" y="128" width="250" height="44" as="geometry"/></mxCell><mxCell id="l3p02_7" value="Quản lý loại tiện nghi" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="335" y="198" width="250" height="44" as="geometry"/></mxCell><mxCell id="l3p02_8" value="Quản lý tiện nghi của phòng" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="335" y="268" width="250" height="44" as="geometry"/></mxCell><mxCell id="l3p02_9" value="Lập phiếu lắp đặt / luân chuyển" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="335" y="338" width="250" height="44" as="geometry"/></mxCell><mxCell id="l3p02_10" value="Kiểm tra thiết bị trong ngày" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="335" y="408" width="250" height="44" as="geometry"/></mxCell><mxCell id="l3p02_11" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=block;endFill=0;endSize=12;" edge="1" parent="1" source="l3p02_4" target="l3p02_3"><mxGeometry relative="1" as="geometry"><mxPoint x="70" y="36" as="sourcePoint"/><mxPoint x="135" y="36" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l3p02_12" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_5"><mxGeometry relative="1" as="geometry"><mxPoint x="70" y="37.63" as="sourcePoint"/><mxPoint x="353.63" y="68.44" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l3p02_13" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_6"><mxGeometry relative="1" as="geometry"><mxPoint x="70" y="40.22" as="sourcePoint"/><mxPoint x="393.73" y="131.35" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l3p02_14" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_7"><mxGeometry relative="1" as="geometry"><mxPoint x="70" y="42.81" as="sourcePoint"/><mxPoint x="414.85" y="199.49" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l3p02_15" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_8"><mxGeometry relative="1" as="geometry"><mxPoint x="70" y="45.41" as="sourcePoint"/><mxPoint x="426.23" y="268.82" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l3p02_16" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_9"><mxGeometry relative="1" as="geometry"><mxPoint x="70" y="48" as="sourcePoint"/><mxPoint x="433.14" y="338.51" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l3p02_17" value="«include»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l3p02_9" target="l3p02_10"><mxGeometry relative="1" as="geometry"><mxPoint x="460" y="382" as="sourcePoint"/><mxPoint x="460" y="408" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l3p02_18" value="Ghi chú: ảnh trong file Word tại mục 2.4a trùng với use case tổng quát; trang này được dựng bổ sung&lt;br&gt;theo các nhóm chức năng Khu vực, Phòng, Loại tiện nghi, Tiện nghi, Phiếu lắp đặt của hệ thống." style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;shape=note;size=12;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;" vertex="1" parent="1"><mxGeometry x="200" y="510" width="520" height="40" as="geometry"/></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile host="app.diagrams.net" agent="Claude" version="24.7.0">
+  <diagram name="2.4a Phân rã Quản lý phòng - tiện nghi" id="l3p02">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="l3p02_1" value="" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="8" width="520" height="480" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_2" value="&lt;b&gt;Phân rã - Quản lý phòng - tiện nghi&lt;/b&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="200" y="12" width="520" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_3" value="Nhân viên" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="135" y="8" width="30" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_4" value="NV Phục vụ&lt;br&gt;phòng" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="8" width="30" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_5" value="Quản lý khu vực" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="335" y="58" width="250" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_6" value="Quản lý phòng" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="335" y="128" width="250" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_7" value="Quản lý loại tiện nghi" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="335" y="198" width="250" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_8" value="Quản lý tiện nghi của phòng" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="335" y="268" width="250" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_9" value="Lập phiếu lắp đặt / luân chuyển" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="335" y="338" width="250" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_10" value="Kiểm tra thiết bị trong ngày" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="335" y="408" width="250" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="l3p02_11" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=block;endFill=0;endSize=12;" edge="1" parent="1" source="l3p02_4" target="l3p02_3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="36" as="sourcePoint"/>
+            <mxPoint x="135" y="36" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3p02_12" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="37.63" as="sourcePoint"/>
+            <mxPoint x="353.63" y="68.44" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3p02_13" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="40.22" as="sourcePoint"/>
+            <mxPoint x="393.73" y="131.35" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3p02_14" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="42.81" as="sourcePoint"/>
+            <mxPoint x="414.85" y="199.49" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3p02_15" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="45.41" as="sourcePoint"/>
+            <mxPoint x="426.23" y="268.82" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3p02_16" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=none;" edge="1" parent="1" source="l3p02_4" target="l3p02_9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="48" as="sourcePoint"/>
+            <mxPoint x="433.14" y="338.51" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3p02_17" value="«include»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l3p02_9" target="l3p02_10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="382" as="sourcePoint"/>
+            <mxPoint x="460" y="408" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3p02_18" value="Ghi chú: ảnh trong file Word tại mục 2.4a trùng với use case tổng quát; trang này được dựng bổ sung&lt;br&gt;theo các nhóm chức năng Khu vực, Phòng, Loại tiện nghi, Tiện nghi, Phiếu lắp đặt của hệ thống." style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;shape=note;size=12;align=left;verticalAlign=top;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="520" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

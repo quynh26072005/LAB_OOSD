@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" agent="Claude" version="24.7.0"><diagram name="Hình P.6: Biểu đồ trạng thái ChuyenLe và PhieuKhaoSat" id="p06s"><mxGraphModel dx="1200" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="p06s_1" value="&lt;b&gt;a) ChuyenLe&lt;/b&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="1"><mxGeometry x="20" y="0" width="300" height="24" as="geometry"/></mxCell><mxCell id="p06s_2" value="" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="181" y="51" width="18" height="18" as="geometry"/></mxCell><mxCell id="p06s_3" value="&lt;b&gt;Mở đăng ký&lt;/b&gt;&lt;hr size=&quot;1&quot; style=&quot;border-color:#000000&quot;&gt;do / bán vé cho khách lẻ" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=top;spacingTop=4;" vertex="1" parent="1"><mxGeometry x="40" y="120" width="300" height="56" as="geometry"/></mxCell><mxCell id="p06s_4" value="&lt;b&gt;Đóng đăng ký&lt;/b&gt;&lt;hr size=&quot;1&quot; style=&quot;border-color:#000000&quot;&gt;entry / ngưng bán vé" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=top;spacingTop=4;" vertex="1" parent="1"><mxGeometry x="40" y="280" width="300" height="56" as="geometry"/></mxCell><mxCell id="p06s_5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="178" y="428" width="24" height="24" as="geometry"/></mxCell><mxCell id="p06s_6" value="TaoChuyen()" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_2" target="p06s_3"><mxGeometry relative="1" as="geometry"><mxPoint x="190" y="69" as="sourcePoint"/><mxPoint x="190" y="120" as="targetPoint"/></mxGeometry></mxCell><mxCell id="p06s_7" value="DongDangKy()" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_3" target="p06s_4"><mxGeometry relative="1" as="geometry"><mxPoint x="190" y="176" as="sourcePoint"/><mxPoint x="190" y="280" as="targetPoint"/></mxGeometry></mxCell><mxCell id="p06s_8" value="when(NgayVe)" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_4" target="p06s_5"><mxGeometry relative="1" as="geometry"><mxPoint x="190" y="336" as="sourcePoint"/><mxPoint x="190" y="427" as="targetPoint"/></mxGeometry></mxCell><mxCell id="p06s_9" value="&lt;b&gt;b) PhieuKhaoSat&lt;/b&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="1"><mxGeometry x="520" y="0" width="300" height="24" as="geometry"/></mxCell><mxCell id="p06s_10" value="" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="661" y="51" width="18" height="18" as="geometry"/></mxCell><mxCell id="p06s_11" value="&lt;b&gt;Đã gửi&lt;/b&gt;&lt;hr size=&quot;1&quot; style=&quot;border-color:#000000&quot;&gt;entry / NgayGui &amp;gt; ngày kết thúc tour" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=top;spacingTop=4;" vertex="1" parent="1"><mxGeometry x="500" y="120" width="340" height="56" as="geometry"/></mxCell><mxCell id="p06s_12" value="&lt;b&gt;Đã phản hồi&lt;/b&gt;&lt;hr size=&quot;1&quot; style=&quot;border-color:#000000&quot;&gt;entry / ghi DiemDanhGia, GopY" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=top;spacingTop=4;" vertex="1" parent="1"><mxGeometry x="500" y="280" width="340" height="56" as="geometry"/></mxCell><mxCell id="p06s_13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="658" y="428" width="24" height="24" as="geometry"/></mxCell><mxCell id="p06s_14" value="GuiKhaoSat()" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_10" target="p06s_11"><mxGeometry relative="1" as="geometry"><mxPoint x="670" y="69" as="sourcePoint"/><mxPoint x="670" y="120" as="targetPoint"/></mxGeometry></mxCell><mxCell id="p06s_15" value="GhiPhanHoi()&lt;br&gt;[điểm 1..5]" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_11" target="p06s_12"><mxGeometry relative="1" as="geometry"><mxPoint x="670" y="176" as="sourcePoint"/><mxPoint x="670" y="280" as="targetPoint"/></mxGeometry></mxCell><mxCell id="p06s_16" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_12" target="p06s_13"><mxGeometry relative="1" as="geometry"><mxPoint x="670" y="336" as="sourcePoint"/><mxPoint x="670" y="427" as="targetPoint"/></mxGeometry></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile host="app.diagrams.net" agent="Claude" version="24.7.0">
+  <diagram name="Hình P.6: Biểu đồ trạng thái ChuyenLe và PhieuKhaoSat" id="p06s">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p06s_1" value="&lt;b&gt;a) ChuyenLe&lt;/b&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="300" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_2" value="" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="181" y="51" width="18" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_3" value="&lt;b&gt;Mở đăng ký&lt;/b&gt;&lt;hr size=&quot;1&quot; style=&quot;border-color:#000000&quot;&gt;do / bán vé cho khách lẻ" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=top;spacingTop=4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="300" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_4" value="&lt;b&gt;Đóng đăng ký&lt;/b&gt;&lt;hr size=&quot;1&quot; style=&quot;border-color:#000000&quot;&gt;entry / ngưng bán vé" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=top;spacingTop=4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="300" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="178" y="428" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_6" value="TaoChuyen()" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_2" target="p06s_3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="69" as="sourcePoint"/>
+            <mxPoint x="190" y="120" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06s_7" value="DongDangKy()" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_3" target="p06s_4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="176" as="sourcePoint"/>
+            <mxPoint x="190" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06s_8" value="when(NgayVe)" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_4" target="p06s_5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="336" as="sourcePoint"/>
+            <mxPoint x="190" y="427" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06s_9" value="&lt;b&gt;b) PhieuKhaoSat&lt;/b&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;align=left;verticalAlign=middle;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="520" y="0" width="300" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_10" value="" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="661" y="51" width="18" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_11" value="&lt;b&gt;Đã gửi&lt;/b&gt;&lt;hr size=&quot;1&quot; style=&quot;border-color:#000000&quot;&gt;entry / NgayGui &amp;gt; ngày kết thúc tour" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=top;spacingTop=4;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="340" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_12" value="&lt;b&gt;Đã phản hồi&lt;/b&gt;&lt;hr size=&quot;1&quot; style=&quot;border-color:#000000&quot;&gt;entry / ghi DiemDanhGia, GopY" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=center;verticalAlign=top;spacingTop=4;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="340" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="658" y="428" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="p06s_14" value="GuiKhaoSat()" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_10" target="p06s_11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="69" as="sourcePoint"/>
+            <mxPoint x="670" y="120" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06s_15" value="GhiPhanHoi()&lt;br&gt;[điểm 1..5]" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_11" target="p06s_12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="176" as="sourcePoint"/>
+            <mxPoint x="670" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p06s_16" value="" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;" edge="1" parent="1" source="p06s_12" target="p06s_13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="336" as="sourcePoint"/>
+            <mxPoint x="670" y="427" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

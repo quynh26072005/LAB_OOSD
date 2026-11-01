@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" agent="Claude" version="24.7.0"><diagram name="Hình P.6: Phân rã use case Kiểm tra phòng" id="l8p06"><mxGraphModel dx="1200" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="l8p06_1" value="Kiểm tra phòng" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="194" width="210" height="56" as="geometry"/></mxCell><mxCell id="l8p06_2" value="(from Use Case View)" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1"><mxGeometry x="20" y="254" width="210" height="16" as="geometry"/></mxCell><mxCell id="l8p06_3" value="Lập đợt kiểm tra" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="400" y="15" width="230" height="52" as="geometry"/></mxCell><mxCell id="l8p06_4" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_3" target="l8p06_1"><mxGeometry relative="1" as="geometry"><mxPoint x="464.64" y="64.37" as="sourcePoint"/><mxPoint x="177.31" y="197.72" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l8p06_5" value="Xác định phòng đến hạn&lt;br&gt;(1 năm/lần)" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="790" y="17" width="210" height="48" as="geometry"/></mxCell><mxCell id="l8p06_6" value="«include»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_3" target="l8p06_5"><mxGeometry relative="1" as="geometry"><mxPoint x="630" y="41" as="sourcePoint"/><mxPoint x="790" y="41" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l8p06_7" value="Ghi nhận tình trạng phòng" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="400" y="103" width="230" height="52" as="geometry"/></mxCell><mxCell id="l8p06_8" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_7" target="l8p06_1"><mxGeometry relative="1" as="geometry"><mxPoint x="435.88" y="147.87" as="sourcePoint"/><mxPoint x="203.27" y="203.34" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l8p06_9" value="Lập kế hoạch tu sửa" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="400" y="191" width="230" height="52" as="geometry"/></mxCell><mxCell id="l8p06_10" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_9" target="l8p06_1"><mxGeometry relative="1" as="geometry"><mxPoint x="400.18" y="218.47" as="sourcePoint"/><mxPoint x="229.88" y="220.66" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l8p06_11" value="Lập biên bản phạt" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="400" y="279" width="230" height="52" as="geometry"/></mxCell><mxCell id="l8p06_12" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_11" target="l8p06_1"><mxGeometry relative="1" as="geometry"><mxPoint x="431.26" y="287.18" as="sourcePoint"/><mxPoint x="207.07" y="239.47" as="targetPoint"/></mxGeometry></mxCell><mxCell id="l8p06_13" value="Ghi nhận nộp phạt" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1"><mxGeometry x="400" y="367" width="230" height="52" as="geometry"/></mxCell><mxCell id="l8p06_14" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_13" target="l8p06_1"><mxGeometry relative="1" as="geometry"><mxPoint x="462.3" y="369.89" as="sourcePoint"/><mxPoint x="179.56" y="245.92" as="targetPoint"/></mxGeometry></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile host="app.diagrams.net" agent="Claude" version="24.7.0">
+  <diagram name="Hình P.6: Phân rã use case Kiểm tra phòng" id="l8p06">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="l8p06_1" value="Kiểm tra phòng" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="194" width="210" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="l8p06_2" value="(from Use Case View)" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="254" width="210" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="l8p06_3" value="Lập đợt kiểm tra" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="15" width="230" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="l8p06_4" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_3" target="l8p06_1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464.64" y="64.37" as="sourcePoint"/>
+            <mxPoint x="177.31" y="197.72" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8p06_5" value="Xác định phòng đến hạn&lt;br&gt;(1 năm/lần)" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="790" y="17" width="210" height="48" as="geometry"/>
+        </mxCell>
+        <mxCell id="l8p06_6" value="«include»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_3" target="l8p06_5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="41" as="sourcePoint"/>
+            <mxPoint x="790" y="41" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8p06_7" value="Ghi nhận tình trạng phòng" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="103" width="230" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="l8p06_8" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_7" target="l8p06_1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435.88" y="147.87" as="sourcePoint"/>
+            <mxPoint x="203.27" y="203.34" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8p06_9" value="Lập kế hoạch tu sửa" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="191" width="230" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="l8p06_10" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_9" target="l8p06_1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400.18" y="218.47" as="sourcePoint"/>
+            <mxPoint x="229.88" y="220.66" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8p06_11" value="Lập biên bản phạt" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="279" width="230" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="l8p06_12" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_11" target="l8p06_1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431.26" y="287.18" as="sourcePoint"/>
+            <mxPoint x="207.07" y="239.47" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8p06_13" value="Ghi nhận nộp phạt" style="ellipse;html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="367" width="230" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="l8p06_14" value="«extend»" style="html=1;rounded=0;strokeColor=#000000;fontColor=#000000;fontSize=11;endArrow=open;endFill=0;endSize=10;dashed=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="l8p06_13" target="l8p06_1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.3" y="369.89" as="sourcePoint"/>
+            <mxPoint x="179.56" y="245.92" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
